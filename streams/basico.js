@@ -33,9 +33,7 @@ class InversorNum extends Transform{
         const n = parseInt(chunk.toString());
         const res = n * -1;
         callback(null, res.toString());
-
     }
-
 }
 
 
