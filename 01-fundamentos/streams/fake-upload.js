@@ -13,13 +13,17 @@ class UmAteSemStr extends Readable {
             const buf = Buffer.from(i.toString());
             setTimeout(() => {
                 this.push(buf);
-            },300);
+            },100);
         }
     }
 }
 
 fetch('http://localhost:3001', {
 method: 'POST',
+    duplex: 'half',
     body: new UmAteSemStr(),
-    duplex: 'half'
+}).then(response => {
+    return response.text();
+}).then( data => {
+    console.log(data);
 });
