@@ -32,3 +32,16 @@ npm install typescript --save-dev
 ```bash
     npx tsc --build
 ```
+- **Instalar @types/node**
+```bash
+    npm install --save-dev @types/node
+```
+- **Instalar o fastify**
+```bash
+    npm install fastify
+```
+- 
+- **Instalar o tsx**
+```bash
+    npm install tsx --save-dev
+```

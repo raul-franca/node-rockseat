@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node --watch src/server.js"
+    "dev": "tsx watch src/server.js"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +12,10 @@
   "type": "commonjs",
   "devDependencies": {
     "@types/node": "^22.13.9",
+    "tsx": "^4.19.3",
     "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "fastify": "^5.2.1"
   }
 }
