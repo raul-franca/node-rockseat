@@ -1,15 +1,15 @@
 # Nivel 2 Rotas HTTP
 
-# Ferramentas
-- Framework  [fastfy](https://www.fastify.io/) 
-
-# Linguagem
+# ⚙️Ferramentas
+- Node.js
 - Typescript
+- Framework  [fastfy](https://www.fastify.io/) 
+- SQLite
 
-# Step by step
+# Preparando a aplicação Step by step
 - **Instalar o typescript** npm i -D typescript
 ```bash
-npm install typescript --save-dev
+  npm install typescript --save-dev
 ```
 - **Criar arquivo de configuração do typescript** npx tsc --init
 ```bash
@@ -45,3 +45,11 @@ npm install typescript --save-dev
 ```bash
     npm install tsx --save-dev
 ```
+
+- **Instalar o eslint**
+```bash
+    npm install eslint --save-dev
+    npm init @eslint/config@latest
+```
+
+
